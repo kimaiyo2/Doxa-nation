@@ -394,43 +394,6 @@ nav div a img {
 }
 
 /* About Section */
-#about img {
-  width: 58px;
-  height: 54px;
-  margin-right: 10px;
-  border-radius: 10px;
-}
-.about-card {
-  background: var(--white-color);
-  padding: 40px;
-  border-radius: 15px;
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.05);
-  text-align: center;
-  transition: all 0.3s ease;
-  height: 100%;
-  border-bottom: 5px solid transparent;
-}
-
-.about-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
-  border-bottom-color: var(--primary-color);
-}
-
-.about-card .icon {
-  font-size: 3rem;
-  margin-bottom: 20px;
-  display: inline-block;
-  background: linear-gradient(45deg, var(--primary-color), var(--accent-color));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.about-card h3 {
-  font-size: 1.4rem;
-  margin-bottom: 15px;
-}
-
 /* Services Section */
 .service-card {
   background: var(--white-color);
